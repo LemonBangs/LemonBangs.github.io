@@ -1,26 +1,27 @@
-/* Ensure the body takes up the full height of the viewport */
+/* Reset body and html margins and paddings */
 body, html {
-    height: 100%;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-/* Gradient background for the body */
+/* Gradient background and flexbox centering */
 body {
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from pink to orange */
-    display: flex; /* Use Flexbox for centering */
+    display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif; /* Ensure a clean font */
 }
 
-/* Container to center the text */
+/* Center the content in the middle of the page */
 .container {
     text-align: center;
 }
 
-/* Styling for the header text */
+/* Style for the header text */
 h1 {
-    color: yellow; /* Yellow color for the title */
+    color: yellow; /* Yellow color for the text */
     font-size: 4em; /* Increase font size */
     font-weight: bold;
     margin: 0; /* Remove default margin */
