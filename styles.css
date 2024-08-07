@@ -1,24 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Ensure the body takes up the full height of the viewport */
+body, html {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100vh; /* Ensure the body takes the full height of the viewport */
-    display: flex; /* Use flexbox to center the content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from pink to orange */
 }
 
-header {
-    background: none; /* Remove background color */
+/* Gradient background for the body */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from pink to orange */
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Container to center the text */
+.container {
     text-align: center;
 }
 
-header h1 {
+/* Styling for the header text */
+h1 {
     color: yellow; /* Yellow color for the title */
     font-size: 4em; /* Increase font size */
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow to the text */
     margin: 0; /* Remove default margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for better readability */
 }
